@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99bb9a4b-0a46-4471-80d7-0ec21ba9c2ea" name="Default Changelist" comment="" />
+    <list default="true" id="99bb9a4b-0a46-4471-80d7-0ec21ba9c2ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/LogeoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Data/Articulo/ArticuloData.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Data/Configuracion/Menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Data/Configuracion/logeo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Data/Util/Util.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e231006-6adb-4490-93d8-c3e63dc48d89.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e231006-6adb-4490-93d8-c3e63dc48d89.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ArticuloEstado.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ArticuloEstado.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/categoria1Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/categoria1Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/categoria2Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/categoria2Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,81 +56,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/app.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="230" column="63" selection-start-line="230" selection-start-column="63" selection-end-line="230" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-              <folding>
-                <element signature="e#21#76#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/auth.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="89" column="2" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/api.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="60" column="47" lean-forward="true" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-              <folding>
-                <element signature="e#6#19#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/categoria2">
+        <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/categoria1">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -127,10 +65,97 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4e231006-6adb-4490-93d8-c3e63dc48d89/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="307">
+              <caret line="134" column="76" selection-start-line="134" selection-start-column="76" selection-end-line="134" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/usuario">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/categoria2Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/menuController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ArticuloEstado.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Articulo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/articuloController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Data/Articulo/ArticuloData.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-697">
+              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+              <folding>
+                <element signature="e#126#160#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Data/Configuracion/Menu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="18" column="130" selection-start-line="18" selection-start-column="114" selection-end-line="18" selection-end-column="130" />
+              <folding>
+                <element signature="e#130#164#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,6 +168,9 @@
       <find>Categoria5</find>
       <find>Categoria3</find>
       <find>Categoria2</find>
+      <find>tipo</find>
+      <find>proveedor</find>
+      <find>listar_proveedor</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,16 +179,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/categoria1.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4e231006-6adb-4490-93d8-c3e63dc48d89/console.sql" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/Http/Data/Categoria1.php" />
         <option value="$PROJECT_DIR$/app/categoria1.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/categoria1.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/categoria1Controller.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/categoria3Controller.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/categoria2Controller.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/categoria5Controller.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/categoria4Controller.php" />
         <option value="$PROJECT_DIR$/app/Categoria1.php" />
@@ -170,15 +192,12 @@
         <option value="$PROJECT_DIR$/app/Categoria4.php" />
         <option value="$PROJECT_DIR$/app/UnidadMedida.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/unidadMedidaController.php" />
-        <option value="$PROJECT_DIR$/app/ArticuloEstado.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/articuloEstadoController.php" />
         <option value="$PROJECT_DIR$/app/Ubigeo.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ubigeoController.php" />
         <option value="$PROJECT_DIR$/app/TipoProducto.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/tipoProductoController.php" />
         <option value="$PROJECT_DIR$/app/Oficina.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/oficinaController.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/config/cors.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
         <option value="$PROJECT_DIR$/composer.json" />
@@ -188,7 +207,29 @@
         <option value="$PROJECT_DIR$/config/auth.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" />
         <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Http/Data/Util/Util.php" />
+        <option value="$PROJECT_DIR$/app/Rol.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/RolController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/rolController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/MenuController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/categoria1Controller.php" />
+        <option value="$PROJECT_DIR$/app/Http/Data/Configuracion/logeo.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LogeoController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Data/Configuracion/Menu.php" />
+        <option value="$PROJECT_DIR$/app/ArticuloEstado.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/articuloEstadoController.php" />
+        <option value="$PROJECT_DIR$/app/Almacen.php" />
+        <option value="$PROJECT_DIR$/app/Http/Data/Articulo/Articulo.php" />
+        <option value="$PROJECT_DIR$/app/Articulo.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/almacenController.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/app/Proveedor.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/proveedorController.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4e231006-6adb-4490-93d8-c3e63dc48d89/console.sql" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/categoria2Controller.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/menuController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/articuloController.php" />
       </list>
     </option>
   </component>
@@ -281,8 +322,6 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
@@ -314,24 +353,29 @@
             <path>
               <item name="wheezy-back" type="b2602c69:ProjectViewProjectNode" />
               <item name="wheezy-back" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wheezy-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wheezy-back" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wheezy-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wheezy-back" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Articulo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wheezy-back" type="b2602c69:ProjectViewProjectNode" />
               <item name="wheezy-back" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wheezy-back" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wheezy-back" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wheezy-back" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wheezy-back" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="seeds" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wheezy-back" type="b2602c69:ProjectViewProjectNode" />
@@ -348,7 +392,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Impresoras" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -382,17 +426,31 @@
       <updated>1554926236917</updated>
       <workItem from="1554926239788" duration="11451000" />
       <workItem from="1555011870335" duration="4729000" />
-      <workItem from="1556649268300" duration="4844000" />
+      <workItem from="1556649268300" duration="12123000" />
+      <workItem from="1556723149160" duration="25766000" />
+      <workItem from="1556808225680" duration="34603000" />
+      <workItem from="1557256674908" duration="4998000" />
+      <workItem from="1557341186453" duration="4035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21024000" />
+    <option name="totallyTimeSpent" value="97705000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24508321" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2397882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -402,237 +460,86 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.33169934" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.39542484" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="SQL Generator" order="11" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.68532526" visible="true" weight="0.3872549" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.31467474" side_tool="true" visible="true" weight="0.3872549" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32843137" />
+      <window_info anchor="bottom" id="SQL Generator" order="11" sideWeight="0.84568834" weight="0.9313725" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.68532526" visible="true" weight="0.04901961" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.15431164" side_tool="true" weight="0.46732026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.28214827" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.080937974" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/categoria1.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4e231006-6adb-4490-93d8-c3e63dc48d89/console.sql">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/rolController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/rol">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Data/Categoria1.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/categoria1.php" />
-    <entry file="file://$PROJECT_DIR$/routes/console.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Data/Configuracion/logeo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-512" />
+        <state relative-caret-position="212">
+          <caret line="18" column="74" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="74" />
+          <folding>
+            <element signature="e#130#164#0#PHP" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/articuloEstadoController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/categoria1Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+          <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/categoria4Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/categoria3Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="42" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="42" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/categoria2Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="31" column="42" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="42" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Categoria1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Categoria2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/categoria4">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Categoria3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Categoria4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Categoria5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/categoria5Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="33" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="33" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/UnidadMedida.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/articulo_estado">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ArticuloEstado.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Ubigeo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/TipoProducto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Oficina.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ubigeoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/oficinaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="36" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/ubigeo">
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/session">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/cors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/rol_usuario">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/almacen">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -646,27 +553,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/unidadMedidaController.php">
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/oficina">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/unidad_medida">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/proveedor_estado">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Data/Util/Util.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="33" />
+        <state relative-caret-position="32">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
+            <element signature="e#121#155#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/articuloEstadoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="44" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/tipo_producto">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/categoria1">
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/ubigeo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/forma_pago">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/articulo_estado">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/cuenta_contable">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/tipo_percenpcion">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/tipo_detraccion">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -680,68 +640,385 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/categoria3">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="230" column="63" selection-start-line="230" selection-start-column="63" selection-end-line="230" selection-end-column="63" />
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/categoria4">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/categoria5Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="89" column="2" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="60" column="47" lean-forward="true" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="170">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding>
-            <element signature="e#6#19#0#PHP" expanded="true" />
+            <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
+    <entry file="file://$PROJECT_DIR$/app/Categoria5.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-          <folding>
-            <element signature="e#21#76#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/rol_modulo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/modulo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/categoria5">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/articulo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/channels.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="1836">
+          <caret line="108" column="21" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Proveedor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/proveedorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/almacenController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/categoria1Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" selection-start-line="11" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Almacen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/4e231006-6adb-4490-93d8-c3e63dc48d89.SCHEMA:wheezy">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>4e231006-6adb-4490-93d8-c3e63dc48d89.SCHEMA:wheezy</OriginalElement>
+          <nodes>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.articulo</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.oficina</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.categoria4</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.proveedor_estado</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.modulo</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.rol_usuario</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.rol_modulo</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.tipo_producto</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.tipo_detraccion</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.canal_cliente</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.almacen</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.cuenta_contable</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.rol</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.ubigeo</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.session</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.usuario</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.categoria5</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.transaccion_almacen</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.categoria3</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.categoria2</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.categoria1</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.articulo_estado</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.cliente</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.unidad_medida</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.forma_pago</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.tipo_percenpcion</node>
+            <node x="" y="">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.proveedor</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7875936719400498" x="1966.0" y="-92.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/transaccion_almacen">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/proveedor">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LogeoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.articulo">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.articulo</OriginalElement>
+          <nodes>
+            <node x="997.0" y="672.0">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.articulo</node>
+            <node x="0.0" y="355.0">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.tipo_detraccion</node>
+            <node x="545.0" y="333.0">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.unidad_medida</node>
+            <node x="270.0" y="355.0">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.cuenta_contable</node>
+            <node x="2955.0" y="22.0">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.ubigeo</node>
+            <node x="865.0" y="322.0">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.categoria5</node>
+            <node x="2329.0" y="322.0">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.categoria4</node>
+            <node x="1161.0" y="322.0">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.categoria3</node>
+            <node x="2033.0" y="322.0">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.categoria2</node>
+            <node x="1737.0" y="333.0">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.categoria1</node>
+            <node x="2625.0" y="344.0">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.articulo_estado</node>
+            <node x="2617.0" y="33.0">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.proveedor_estado</node>
+            <node x="3219.0" y="0.0">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.forma_pago</node>
+            <node x="1457.0" y="355.0">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.tipo_percenpcion</node>
+            <node x="2946.0" y="212.0">4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.proveedor</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.proveedor" target="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.forma_pago">
+              <point x="87.33333333333326" y="-180.0" />
+              <point x="3164.333333333333" y="187.0" />
+              <point x="3372.0" y="187.0" />
+              <point x="0.0" y="81.0" />
+            </edge>
+            <edge source="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.articulo" target="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.tipo_detraccion">
+              <point x="-143.0" y="-422.0" />
+              <point x="1008.0" y="652.0" />
+              <point x="125.0" y="652.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.articulo" target="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.articulo_estado">
+              <point x="121.0" y="-422.0" />
+              <point x="1272.0" y="642.0" />
+              <point x="2775.5" y="642.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.articulo" target="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.proveedor">
+              <point x="143.0" y="-422.0" />
+              <point x="1294.0" y="652.0" />
+              <point x="3077.0" y="652.0" />
+              <point x="0.0" y="180.0" />
+            </edge>
+            <edge source="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.articulo" target="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.unidad_medida">
+              <point x="-33.0" y="-422.0" />
+              <point x="1118.0" y="602.0" />
+              <point x="770.0" y="602.0" />
+              <point x="75.0" y="59.0" />
+            </edge>
+            <edge source="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.articulo" target="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.tipo_percenpcion">
+              <point x="33.0" y="-422.0" />
+              <point x="1184.0" y="602.0" />
+              <point x="1587.0" y="602.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.articulo" target="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.cuenta_contable">
+              <point x="-121.0" y="-422.0" />
+              <point x="1030.0" y="642.0" />
+              <point x="312.5" y="642.0" />
+              <point x="-85.0" y="37.0" />
+            </edge>
+            <edge source="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.proveedor" target="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.proveedor_estado">
+              <point x="-87.33333333333326" y="-180.0" />
+              <point x="2989.666666666667" y="187.0" />
+              <point x="2776.0" y="187.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.articulo" target="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.categoria3">
+              <point x="11.0" y="-422.0" />
+              <point x="1162.0" y="592.0" />
+              <point x="1299.0" y="592.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+            <edge source="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.articulo" target="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.categoria2">
+              <point x="77.0" y="-422.0" />
+              <point x="1228.0" y="622.0" />
+              <point x="2171.0" y="622.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+            <edge source="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.articulo" target="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.categoria5">
+              <point x="-11.0" y="-422.0" />
+              <point x="1140.0" y="592.0" />
+              <point x="1003.0" y="592.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+            <edge source="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.articulo" target="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.categoria4">
+              <point x="99.0" y="-422.0" />
+              <point x="1250.0" y="632.0" />
+              <point x="2467.0" y="632.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+            <edge source="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.proveedor" target="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.ubigeo">
+              <point x="0.0" y="-180.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.articulo" target="4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.categoria1">
+              <point x="55.0" y="-422.0" />
+              <point x="1206.0" y="612.0" />
+              <point x="1875.0" y="612.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.14869888475836432" x="1604.0" y="808.5" />
+          <SelectedNodes>
+            <node>4e231006-6adb-4490-93d8-c3e63dc48d89.TABLE:wheezy.articulo</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/categoria1">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4e231006-6adb-4490-93d8-c3e63dc48d89/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="134" column="76" selection-start-line="134" selection-start-column="76" selection-end-line="134" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e231006-6adb-4490-93d8-c3e63dc48d89/schema/wheezy/table/usuario">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/categoria2Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Data/Configuracion/Menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="18" column="130" selection-start-line="18" selection-start-column="114" selection-end-line="18" selection-end-column="130" />
+          <folding>
+            <element signature="e#130#164#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/menuController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ArticuloEstado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Articulo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/articuloController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Data/Articulo/ArticuloData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-697">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="e#126#160#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -3,76 +3,64 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Categoria1;
+use App\Rol;
 use App\Http\Data\Util\Util;
 
-
-class categoria1Controller extends Controller
+class rolController extends Controller
 {
-    public function listar_categorias1(Request $request)
+    public function listar_roles(Request $request)
     {
         $autorizacion = Util::autenticado($request->header('Authorization'));
         if ($autorizacion->success) {
-            $response = Categoria1::all();
+            $response = Rol::all();
         } else {
             $response = $autorizacion;
         }
         return response()->json($response, 201);
     }
 
-    public function registrar_categoria1(Request $request)
+    public function registrar_rol(Request $request)
     {
         $autorizacion = Util::autenticado($request->header('Authorization'));
-
         if ($autorizacion->success) {
-            Categoria1::create($request->all());
-            $response = Categoria1::all();
+            Rol::create($request->all());
+            $response = Rol::all();
         } else {
             $response = $autorizacion;
         }
         return response()->json($response, 201);
     }
 
-    public function listar_catagoria1(Request $request, $id)
-
-
+    public function listar_rol(Request $request, $id)
     {
         $autorizacion = Util::autenticado($request->header('Authorization'));
-
         if ($autorizacion->success) {
-            $response = Categoria1::find($id);
+            $response = Rol::find($id);
         } else {
             $response = $autorizacion;
         }
         return response()->json($response, 201);
-
-
     }
 
-    public function editar_categoria1(Request $request, $id)
+    public function editar_rol(Request $request, $id)
     {
 
-
         $autorizacion = Util::autenticado($request->header('Authorization'));
-
         if ($autorizacion->success) {
-            Categoria1::find($id)->update($request->all());
-            $response = Categoria1::all();
+            Rol::find($id)->update($request->all());
+            $response = Rol::all();
         } else {
             $response = $autorizacion;
         }
         return response()->json($response, 201);
-
     }
 
-    public function eliminar_categoria1(Request $request, $id)
+    public function eliminar_rol(Request $request, $id)
     {
         $autorizacion = Util::autenticado($request->header('Authorization'));
-
         if ($autorizacion->success) {
-            Categoria1::find($id)->delete();
-
-            $response = Categoria1::all();
+            Rol::find($id)->delete();
+            $response = Rol::all();
         } else {
             $response = $autorizacion;
         }
